@@ -1,0 +1,99 @@
+:root{
+    --title-font: 'Viaoda Libre',cursive;
+}
+
+body{
+    font-family: 'Roboto', Arial, sans-serif;
+    color:#555;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.header-top{
+    background-color: #162028;
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-top .logotipo{
+    margin-left: 100px;
+    font-family: var(--title-font);
+    color:white;
+    font-weight: normal;
+}
+
+.header-nav ul{
+    list-style-type: none;
+    margin-right: 40px;
+}
+.header-nav li{
+    display: inline-block;
+    padding-left: 40px
+}
+
+.header-nav a{
+    color:#425564;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.image-topo{
+    width: 100%;
+}
+
+.portfolio{
+    padding: 0 100px;
+    text-align: center;
+}
+
+.portfolio h1{
+    margin-top: 100px;
+    font-family: var(--title-font);
+    font-weight: normal;
+    font-size: 32px;
+}
+.portfolio p{
+    line-height: 2;
+}
+.portfolio__cards{
+    margin-top: 80px;
+    display: flex;
+    gap: 30px;
+    justify-content:center;
+}
+
+.about{
+    margin-top: 100px;
+    background-color: #003d52;
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    height: 70vh;
+    padding: 100px 200px;
+    color:white;
+}
+
+.about h2{
+    font-family: var(--title-font);
+    font-weight: normal;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+.about p{
+    width: 70%;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.main-footer{
+    background-color: #0b171f;
+    color: #6f8597;
+    text-align:center;
+    padding: 10px;
+    letter-spacing: 2px;
+}
